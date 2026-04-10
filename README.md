@@ -78,6 +78,8 @@ ssh -i TestKeyPair.pem ec2-user@54.204.131.244>
 
 EC2 Instance Running.png
 SG-Restricted.png
+SG-PublicAccess.png
+
 
 
 

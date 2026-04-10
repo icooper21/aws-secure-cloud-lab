@@ -1,3 +1,18 @@
+☁️ AWS EC2 Web Server Deployment & Security Hardening Lab
+📌 Project Overview
+
+This project demonstrates the deployment of a web server on an Amazon EC2 instance, followed by intentional security misconfiguration and remediation. The goal is to simulate a real-world cloud environment, identify security risks in network access controls, and apply least-privilege principles to harden the system.
+
+🎯 Objectives
+* Launch and configure an EC2 instance
+* Deploy a basic Apache web server
+* Configure security groups for controlled access
+* Simulate a security misconfiguration
+* Identify associated risks
+* Apply remediation using least-privilege access controls
+
+.....
+
 # ☁️ Secure Cloud Environment Lab (AWS EC2)
 
 ## 📌 Project Overview

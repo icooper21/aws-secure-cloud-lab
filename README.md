@@ -75,6 +75,8 @@ ssh -i TestKeyPair.pem ec2-user@54.204.131.244>
 
 
 *(Add screenshots here)*
+EC2 Instance Running.png
+
 
 * EC2 instance running
 * Security group configuration

@@ -11,6 +11,13 @@ This project demonstrates the deployment of a web server on an Amazon EC2 instan
 * Identify associated risks
 * Apply remediation using least-privilege access controls
 
+🛠️ Technologies Used
+* AWS EC2
+* Amazon Linux 2
+* Apache Web Server (httpd)
+* AWS Security Groups
+* SSH (Secure Shell)
+
 .....
 
 # ☁️ Secure Cloud Environment Lab (AWS EC2)

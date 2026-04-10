@@ -76,8 +76,7 @@ ssh -i TestKeyPair.pem ec2-user@54.204.131.244>
 
 *(Add screenshots here)*
 
-![EC2 Instance] (EC2-Instance-Running.png)
-
+![EC2 Instance Running](ec2-instance-running.png)
 
 SG-Restricted.png
 SG-PublicAccess.png

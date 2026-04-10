@@ -23,13 +23,13 @@ This project demonstrates basic cloud deployment, network configuration, and sec
 * **Service:** EC2 (Elastic Compute Cloud)
 * **OS:** Amazon Linux 2023
 * **Access Method:** SSH (Port 22)
-* **Public Access:** Enabled via Public IPv4
+* **Public Access:** using Public IPv4
 
 ---
 
 ## ⚙️ Steps Performed
 
-### 1. EC2 Setup   ////// (pickup here)
+### 1. EC2 Setup  
 
 * Created EC2 instance (t3.micro)
 * Selected Amazon Linux 2023 AMI
@@ -46,7 +46,7 @@ This project demonstrates basic cloud deployment, network configuration, and sec
 * Connected using terminal:
 
 ```bash
-ssh -i your-key.pem ec2-user@<public-ip>
+ssh -i TestKeyPair.pem ec2-user@54.204.131.244>
 ```
 
 ### 4. System Verification
@@ -62,7 +62,7 @@ ssh -i your-key.pem ec2-user@<public-ip>
 
 ---
 
-## 🔐 Security Concepts Demonstrated
+## 5. 🔐 Security Concepts Demonstrated
 
 * Principle of Least Privilege
 * Secure Remote Access (SSH)
@@ -72,6 +72,7 @@ ssh -i your-key.pem ec2-user@<public-ip>
 ---
 
 ## 📸 Screenshots
+
 
 *(Add screenshots here)*
 

@@ -85,10 +85,6 @@ ssh -i TestKeyPair.pem ec2-user@54.204.131.244>
 ![Successful SSH Connection](Successful%20SSH%20Connection.png)
 
 
-* EC2 instance running
-* Security group configuration
-* Successful SSH connection
-
 ---
 
 ## 🧠 Key Takeaways

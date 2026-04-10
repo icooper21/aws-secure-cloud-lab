@@ -78,11 +78,11 @@ ssh -i TestKeyPair.pem ec2-user@54.204.131.244>
 
 ![EC2 Instance Running](ec2-instance-running.png)
 
-SG-Restricted.png
-SG-PublicAccess.png
-Successful SSH Connection.png
+![SG-Restricted](SG-Restricted.png)
 
+![SG-PublicAccess](SG-PublicAccess.png)
 
+![Successful SSH Connection](Successful%20SSH%20Connection.png)
 
 
 * EC2 instance running

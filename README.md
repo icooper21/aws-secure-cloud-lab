@@ -28,7 +28,7 @@ This project demonstrates the deployment of a web server on an Amazon EC2 instan
 ## 🚀 Deployment Steps
 ### 1. EC2 Instance Setup
 
-An EC2 instance was launched in AWS and configured with a public IPv4 address to allow external connectivity.
+* An EC2 instance was launched in AWS and configured with a public IPv4 address to allow external connectivity.
 
 ![EC2 Instance Running](EC2-Instance-Running.png)
 

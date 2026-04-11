@@ -1,12 +1,12 @@
-#☁️ AWS EC2 Web Server Deployment & Security Hardening Lab
+# ☁️ AWS EC2 Web Server Deployment & Security Hardening Lab
 
-##📌 Project Overview
+## 📌 Project Overview
 
 This project demonstrates the deployment of a web server on an Amazon EC2 instance, followed by intentional security misconfiguration and remediation. The goal is to simulate a real-world cloud environment, identify security risks in network access controls, and apply least-privilege principles to harden the system.
 
 ---
 
-🎯 Objectives
+## 🎯 Objectives
 * Launch and configure an EC2 instance
 * Deploy a basic Apache web server
 * Configure security groups for controlled access
@@ -16,7 +16,7 @@ This project demonstrates the deployment of a web server on an Amazon EC2 instan
 
 ---
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 * AWS EC2
 * Amazon Linux 2
 * Apache Web Server (httpd)
@@ -25,15 +25,15 @@ This project demonstrates the deployment of a web server on an Amazon EC2 instan
 
 ---
 
-🚀 Deployment Steps
-1. EC2 Instance Setup
+## 🚀 Deployment Steps
+### 1. EC2 Instance Setup
 
 An EC2 instance was launched in AWS and configured with a public IPv4 address to allow external connectivity.
 
 ![EC2 Instance Running](EC2-Instance-Running.png)
 
 
-2. Web Server Installation
+### 2. Web Server Installation
 
 Apache web server was installed and started:
 
@@ -65,7 +65,7 @@ Validated the EC2 instance was publicly accessible over HTTP (port 80) from an e
 
 ---
 
-⚠️ Security Misconfiguration & Testing
+## ⚠️ Security Misconfiguration & Testing
 Misconfiguration Introduced
 
 * SSH access was intentionally set to:
@@ -90,7 +90,7 @@ Public accessibility of the instance confirmed that external networks could reac
 
 ---
 
-🔐 Remediation & Hardening
+## 🔐 Remediation & Hardening
 
 To mitigate risk, SSH access was restricted to a trusted IP address:
 
@@ -102,7 +102,7 @@ This ensures only authorized devices can initiate SSH connections.
 
 ---
 
-📚 Key Learnings
+## 📚 Key Learnings
 *  Security Groups function as a virtual firewall for EC2 instances
 *  0.0.0.0/0 represents unrestricted public internet access and should be avoided for administrative ports
 *  Least-privilege access is critical in cloud security design
@@ -111,7 +111,7 @@ This ensures only authorized devices can initiate SSH connections.
 
 ---
 
-🧠 Conclusion
+## 🧠 Conclusion
 
 This lab demonstrated the full lifecycle of a cloud-hosted service: deployment, exposure, risk identification, and remediation. It reinforces foundational cloud security principles used in real-world AWS environments.
 

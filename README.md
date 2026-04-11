@@ -94,7 +94,7 @@ Public accessibility of the instance confirmed that external networks could reac
 
 To mitigate risk, SSH access was restricted to a trusted IP address:
 
-Source: 38.248.95.51/32
+Source: 38.248.95.51/32   (My public IP)
 
 ![Remediation Rule](SG-Inbound3.png)
 

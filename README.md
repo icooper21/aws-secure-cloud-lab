@@ -54,7 +54,7 @@ Inbound rules were configured to allow:
 * SSH (port 22) for remote administration
 * HTTP (port 80) for web traffic
 
-![SG Inbound1](
+![SG Inbound1](SG-Inbound1.png)
 
 Once configured, the default Apache test page (“It works!”) was successfully accessible via browser using the EC2 public IP.
 

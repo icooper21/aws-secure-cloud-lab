@@ -85,7 +85,7 @@ This configuration introduces critical security risks:
 
 ### **Validation**
 
-Public accessibility of the instance confirmed that external networks could reach the system under the misconfigured rule set.
+* Public accessibility of the instance confirmed that external networks could reach the system under the misconfigured rule set.
 
 ---
 

@@ -39,9 +39,9 @@ Apache web server was installed and started:
 
 ![Installation in Progress](Installation-Progress.png)
 
+
 ![Successful Running](Successful-Running.png)
 
-![Apache Install](Installation-Progress.png)
 
 ---
 

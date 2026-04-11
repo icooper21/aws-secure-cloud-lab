@@ -37,9 +37,9 @@ An EC2 instance was launched in AWS and configured with a public IPv4 address to
 
 Apache web server was installed and started:
 
-![Installation in Progress](installation-in-progress2.png) 
+![Installation in Progress](Installation-Progress.png)
 
-![Successful Running](successful-running.png)
+![Successful Running](Successful-Running.png)
 
 
 ---

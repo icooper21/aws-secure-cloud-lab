@@ -69,8 +69,7 @@ Validated the EC2 instance was publicly accessible over HTTP (port 80) from an e
 ### **Misconfiguration Introduced**
 
 * SSH access was intentionally set to:
-
-Source: 0.0.0.0/0
+    - Source: 0.0.0.0/0
 
 ![Misconfiguration](SG-Inbound2.png)
 

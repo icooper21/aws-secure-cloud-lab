@@ -30,6 +30,9 @@ This project demonstrates the deployment of a web server on an Amazon EC2 instan
 
 An EC2 instance was launched in AWS and configured with a public IPv4 address to allow external connectivity.
 
+![EC2 Instance Running](EC2-Instance-Running.png)
+
+
 2. Web Server Installation
 
 Apache web server was installed and started:

@@ -3,6 +3,8 @@
 
 This project demonstrates the deployment of a web server on an Amazon EC2 instance, followed by intentional security misconfiguration and remediation. The goal is to simulate a real-world cloud environment, identify security risks in network access controls, and apply least-privilege principles to harden the system.
 
+---
+
 🎯 Objectives
 * Launch and configure an EC2 instance
 * Deploy a basic Apache web server
@@ -11,12 +13,17 @@ This project demonstrates the deployment of a web server on an Amazon EC2 instan
 * Identify associated risks
 * Apply remediation using least-privilege access controls
 
+---
+
 🛠️ Technologies Used
 * AWS EC2
 * Amazon Linux 2
 * Apache Web Server (httpd)
 * AWS Security Groups
 * SSH (Secure Shell)
+
+---
+
 
 .....
 

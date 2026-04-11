@@ -1,5 +1,5 @@
-☁️ AWS EC2 Web Server Deployment & Security Hardening Lab
-📌 Project Overview
+#☁️ AWS EC2 Web Server Deployment & Security Hardening Lab
+##📌 Project Overview
 
 This project demonstrates the deployment of a web server on an Amazon EC2 instance, followed by intentional security misconfiguration and remediation. The goal is to simulate a real-world cloud environment, identify security risks in network access controls, and apply least-privilege principles to harden the system.
 
@@ -24,6 +24,77 @@ This project demonstrates the deployment of a web server on an Amazon EC2 instan
 
 ---
 
+🚀 Deployment Steps
+1. EC2 Instance Setup
+
+An EC2 instance was launched in AWS and configured with a public IPv4 address to allow external connectivity.
+
+2. Web Server Installation
+
+Apache web server was installed and started:
+
+sudo yum update -y
+sudo yum install httpd -y
+sudo systemctl start httpd
+sudo systemctl enable httpd
+
+---
+
+3. Security Group Configuration
+
+Inbound rules were configured to allow:
+
+SSH (port 22) for remote administration
+HTTP (port 80) for web traffic
+
+Once configured, the default Apache test page (“It works!”) was successfully accessible via browser using the EC2 public IP.
+
+---
+
+⚠️ Security Misconfiguration & Testing
+Misconfiguration Introduced
+
+SSH access was intentionally set to:
+
+Source: 0.0.0.0/0
+
+This allowed unrestricted SSH access from any IP address on the internet.
+
+Risk Analysis
+
+This configuration introduces critical security risks:
+
+Exposure to brute-force SSH attacks
+Unauthorized login attempts from global sources
+Violation of least-privilege access principles
+Validation
+
+Public accessibility of the instance confirmed that external networks could reach the system under the misconfigured rule set.
+
+---
+
+🔐 Remediation & Hardening
+
+To mitigate risk, SSH access was restricted to a trusted IP address:
+
+Source: <My Public IP>/32
+
+This ensures only authorized devices can initiate SSH connections.
+
+---
+
+📚 Key Learnings
+*  Security Groups function as a virtual firewall for EC2 instances
+*  0.0.0.0/0 represents unrestricted public internet access and should be avoided for administrative ports
+*  Least-privilege access is critical in cloud security design
+*  Misconfigurations in cloud environments can directly expose infrastructure to attack
+*  Proper validation and remediation are essential parts of secure cloud operations
+
+---
+
+🧠 Conclusion
+
+This lab demonstrated the full lifecycle of a cloud-hosted service: deployment, exposure, risk identification, and remediation. It reinforces foundational cloud security principles used in real-world AWS environments.
 
 .....
 

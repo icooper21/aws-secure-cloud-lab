@@ -66,7 +66,7 @@ Validated the EC2 instance was publicly accessible over HTTP (port 80) from an e
 ---
 
 ## ⚠️ Security Misconfiguration & Testing
-**Misconfiguration Introduced**
+### **Misconfiguration Introduced**
 
 * SSH access was intentionally set to:
 
@@ -76,7 +76,7 @@ Source: 0.0.0.0/0
 
 * This allowed unrestricted SSH access from any IP address on the internet.
 
-**Risk Analysis**
+### **Risk Analysis**
 
 This configuration introduces critical security risks:
 
@@ -84,7 +84,7 @@ This configuration introduces critical security risks:
 * Unauthorized login attempts from global sources
 * Violation of least-privilege access principles
 
-**Validation**
+### **Validation**
 
 Public accessibility of the instance confirmed that external networks could reach the system under the misconfigured rule set.
 

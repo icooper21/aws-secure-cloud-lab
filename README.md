@@ -37,10 +37,10 @@ An EC2 instance was launched in AWS and configured with a public IPv4 address to
 
 Apache web server was installed and started:
 
-sudo yum update -y
-sudo yum install httpd -y
-sudo systemctl start httpd
-sudo systemctl enable httpd
+![Installation in Progress](installation-in-progress2.png) 
+
+![Successful Running](successful-running.png)
+
 
 ---
 

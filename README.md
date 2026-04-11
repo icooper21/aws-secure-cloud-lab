@@ -58,6 +58,10 @@ HTTP (port 80) for web traffic
 
 Once configured, the default Apache test page (“It works!”) was successfully accessible via browser using the EC2 public IP.
 
+Validated the EC2 instance was publicly accessible over HTTP (port 80) from an external network using a mobile device on cellular data.
+
+
+
 ---
 
 ⚠️ Security Misconfiguration & Testing

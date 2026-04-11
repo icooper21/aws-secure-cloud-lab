@@ -80,9 +80,10 @@ Risk Analysis
 
 This configuration introduces critical security risks:
 
-Exposure to brute-force SSH attacks
-Unauthorized login attempts from global sources
-Violation of least-privilege access principles
+* Exposure to brute-force SSH attacks
+* Unauthorized login attempts from global sources
+* Violation of least-privilege access principles
+
 Validation
 
 Public accessibility of the instance confirmed that external networks could reach the system under the misconfigured rule set.

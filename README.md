@@ -60,6 +60,8 @@ Once configured, the default Apache test page (“It works!”) was successfully
 
 Validated the EC2 instance was publicly accessible over HTTP (port 80) from an external network using a mobile device on cellular data.
 
+![Public Access](ItWorks.png)
+
 
 
 ---
